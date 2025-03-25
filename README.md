@@ -1,4 +1,4 @@
-## Crowdfunding_ELT_Project 
+### Crowdfunding_ELT_Project 
 # Author: Humaira Enayetullah
 
 # Introduction
@@ -15,6 +15,7 @@ Tables were created to  specify the data types, primary keys, foreign keys, and 
 
 
 This is how all the four tables are related with Contacts, Category, and Subcategory table having one to many relationship with the Campaigns table.
+
 ![Tables ERD diagram](https://github.com/user-attachments/assets/382d8132-f058-4abb-abf3-a834f4ddfbe4)
 
 # Limitations
