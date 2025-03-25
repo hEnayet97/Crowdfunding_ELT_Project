@@ -1,5 +1,4 @@
 # Crowdfunding ELT Project 
-Author: Humaira Enayetullah
 
 # Introduction
 In this project I used Python, Pandas, and PostGres SQL to create a ETL pipeline that created four different csv files using the crowdfunding info main file to extract data information. A entity relationship diagram was also created to understand how the files are linked and what is their primary and foreign key.
