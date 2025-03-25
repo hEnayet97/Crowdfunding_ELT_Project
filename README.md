@@ -11,7 +11,9 @@ In this project I used Python, Pandas, and PostGres SQL to create a ETL pipeline
 * Tables were created to  specify the data types, primary keys, foreign keys, and other constraints using Postgres SQL
 
 # Findings
-This is how all the four tables are related with Contacts, Category, and Subcategory table having one to many relationship with the Campaigns table that has most of the data
+This is how all the four tables are related with Contacts, Category, and Subcategory table having one to many relationship with the Campaigns table.
+
+
 ![Tables ERD diagram](https://github.com/user-attachments/assets/382d8132-f058-4abb-abf3-a834f4ddfbe4)
 
 # Limitations
