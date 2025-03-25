@@ -8,17 +8,18 @@ In this project I used Python, Pandas, and PostGres SQL to create a ETL pipeline
 * NumPy and Pandas were used for data analysis
 * Regex was used to parse through text data to create the contacts csv file
 * Data visualization was done using QuickDBD
-* Tables were created to  specify the data types, primary keys, foreign keys, and other constraints using Postgres SQL
 
 # Findings
+Tables were created to  specify the data types, primary keys, foreign keys, and other constraints using Postgres SQL
+![image](https://github.com/user-attachments/assets/40cb0975-98af-4446-8c01-19cb33145736)
+
+
 This is how all the four tables are related with Contacts, Category, and Subcategory table having one to many relationship with the Campaigns table.
-
-
 ![Tables ERD diagram](https://github.com/user-attachments/assets/382d8132-f058-4abb-abf3-a834f4ddfbe4)
 
 # Limitations
 * The description column in the campaign table provide little information about the details of the campaign founders, type of organization, location, and the cause of the campaign.
-* No statistical analysis is done on campaign success and failure
+* No statistical analysis is done on campaign success and failure, but can be done for future analysis
 * Also, there is no information on the audience group and gender demographics for these campaigns
 
 # References
