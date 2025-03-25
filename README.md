@@ -10,6 +10,7 @@ In this project I used Python, Pandas, and PostGres SQL to create a ETL pipeline
 
 # Findings
 Tables were created to  specify the data types, primary keys, foreign keys, and other constraints using Postgres SQL
+
 ![image](https://github.com/user-attachments/assets/40cb0975-98af-4446-8c01-19cb33145736)
 
 
