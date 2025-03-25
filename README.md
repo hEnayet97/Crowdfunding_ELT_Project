@@ -1,20 +1,20 @@
 # Crowdfunding ELT Project 
 
 # Introduction
-In this project I used Python, Pandas, and PostGres SQL to create a ETL pipeline that created four different csv files using the crowdfunding info main file to extract data information. A entity relationship diagram was also created to understand how the files are linked and what is their primary and foreign key.
+In this project, I developed an ETL (Extract, Transform, Load) pipeline using Python, Pandas, and PostgreSQL to process crowdfunding data. The pipeline extracted relevant information from the main crowdfunding dataset and generated four separate CSV file. Also, an entity relationship diagram was created to understand how the files are linked and what is their primary and foreign key.
 
 # Data Anaysis
 * NumPy and Pandas were used for data analysis
 * Regex was used to parse through text data to create the contacts csv file
-* Data visualization was done using QuickDBD
+* Data visualization was done using QuickDBD to understand relationships between tables
 
 # Findings
-Tables were created to  specify the data types, primary keys, foreign keys, and other constraints using Postgres SQL
+* Tables were created to  specify the data types, primary keys, foreign keys, and other constraints using Postgres SQL
 
 ![image](https://github.com/user-attachments/assets/40cb0975-98af-4446-8c01-19cb33145736)
 
 
-This is how all the four tables are related with Contacts, Category, and Subcategory table having one to many relationship with the Campaigns table.
+* The Contacts, Category, and Subcategory tables share a one-to-many relationship with the Campaigns table. This structure allows efficient querying and organization of campaign-related data.
 
 ![Tables ERD diagram](https://github.com/user-attachments/assets/382d8132-f058-4abb-abf3-a834f4ddfbe4)
 
