@@ -14,7 +14,7 @@ In this project, I developed an ETL (Extract, Transform, Load) pipeline using Py
 ![image](https://github.com/user-attachments/assets/40cb0975-98af-4446-8c01-19cb33145736)
 
 
-* The Contacts, Category, and Subcategory tables share a one-to-many relationship with the Campaigns table. This structure allows efficient querying and organization of campaign-related data.
+* The Contacts, Category, and Subcategory tables share a one-to-many relationship with the Campaigns table. This structure allows efficient querying of the related database.
 
 ![Tables ERD diagram](https://github.com/user-attachments/assets/382d8132-f058-4abb-abf3-a834f4ddfbe4)
 
